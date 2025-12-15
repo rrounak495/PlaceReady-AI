@@ -156,4 +156,13 @@ Final Year Engineering Student | AI & Data Science <br>
 © 2025 PlaceReady AI
 </center>
 """, unsafe_allow_html=True)
+st.markdown("""
+<hr>
+<center style="color:#9ca3af; font-size:14px;">
+<b>Built by Rounak Rathod</b><br>
+Final Year Engineering Student | AI & Data Science <br>
+© 2025 PlaceReady AI
+</center>
+""", unsafe_allow_html=True)
+
 
