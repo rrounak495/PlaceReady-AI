@@ -154,3 +154,18 @@ if st.button("🚀 Check Placement Readiness"):
         for s in suggestions:
             st.markdown(f"<div class='card'>✅ {s}</div>", unsafe_allow_html=True)
 
+# ---------------- FOOTER ----------------
+st.markdown(
+    """
+    <hr>
+    <center style="color:#9ca3af; font-size:14px;">
+    <b>Built by Rounak Rathod</b><br>
+    Final Year Engineering Student | AI & Data Science<br>
+    © 2025 PlaceReady AI 🚀
+    </center>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
