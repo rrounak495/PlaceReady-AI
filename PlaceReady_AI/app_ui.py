@@ -58,7 +58,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------------- LOAD MODEL ----------------
-model = pickle.load(open("model.pkl", "rb"))
+import os
+import pickle
+
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "model.pkl")
+model = pickle.load(open(MODEL_PATH, "rb"))
+
 
 # ---------------- HERO HEADER (4.2 DONE) ----------------
 st.markdown("""
@@ -148,3 +153,4 @@ if st.button("🚀 Check Placement Readiness"):
         st.subheader("💡 Suggestions")
         for s in suggestions:
             st.markdown(f"<div class='card'>✅ {s}</div>", unsafe_allow_html=True)
+
